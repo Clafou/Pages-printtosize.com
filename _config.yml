@@ -28,8 +28,32 @@ youtube_username                          :
 
 
 
-# Feature List                            Edit, add or remove features to be presented.
+# Reviews List
+reviews                                   :
 
+  - title                                 : Best for printing
+    description                           : This is an awesome app for printing because there is no guess work. You see your page, you add your pic and then you can crop as you see fit. Great for scrapbooking and framing your shots. Before this app, printing pictures from my phone was a nightmare.
+    author                                : McWeizer
+
+  - title                                 : Delightful app
+    description                           : I love to have the ability to resize photos easily and print out immediately.  Thank you for creating this wonderful app!
+    author                                : iammaskier
+
+  - title                                 : Amazing
+    description                           : Love how much this app has taken away headache after headache trying to enlarge something. Hats off to Print to size
+    author                                : 70s momma
+
+  - title                                 : Perfect!
+    description                           : This is exactly what I was looking for for so long! I just wanted to be able to pick my print size (not choose from A4 and such) and position on the page wherever I liked and print multiple photos...as many as I can fit on the page as to not waste paper! I just tried it for the first time and it worked great. Thank you!
+    author                                : caalncgirl
+    
+  - title                                 : Beyond love it! 
+    description                           : I’m a professional artist and use this app all day everyday. It is one my most important tools in my tool box ! I have a suggestion that I would use and I think others would love it. Being able to lighten or darken the photos on the spot. Well that’s it and thank you for the absolute most brilliant app!!
+    author                                : Mrsfab555
+
+  - title                                 : Love this app!
+    description                           : Any Mom with kids doing school projects will absolutely love this app! Saves me a ton of time trying to print pictures the exact size we need!
+    author                                : Luv2cook40
 
 # Theme Settings
 topbar_color                              : "#000000"
@@ -44,7 +68,7 @@ device_color                              : blue                                
 
 body_background_color                     : "ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : "rgb(191, 48, 105)"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -53,7 +77,7 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
+feature_icons_foreground_color            : "rgb(241, 224, 116)"
 feature_icons_background_color            : "#e6e6e6"
 
 social_icons_foreground_color             : "#666666"

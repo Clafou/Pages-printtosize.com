@@ -1,0 +1,24 @@
+<div class="features">
+
+    {% for review in site.reviews %}
+
+    <div class="feature">
+        <div class="featureText">
+            <h3>
+                {{ review.title }}
+            </h3>
+            <p>
+                <i class="iconTop fas fa-star"></i><i class="iconTop fas fa-star"></i><i class="iconTop fas fa-star"></i><i class="iconTop fas fa-star"></i><i class="iconTop fas fa-star"></i>
+            </p>
+            <p>
+                {{ review.description }}
+            </p>
+            <h4>
+                {{ review.author }}
+            </h4>
+        </div>
+    </div>
+
+    {% endfor %}
+
+</div>
