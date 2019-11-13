@@ -36,6 +36,26 @@
 		"f f f f f f f f f f f f";
 }
 
+.appetizeContainer {
+	display: grid;
+	margin: auto;
+	max-width: $content-width;
+	padding-left: 15px;
+	padding-right: 15px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 115px auto auto;
+	grid-column-gap: 30px;
+	grid-template-areas: 
+		"h h h h h h h h h h h h"
+		"c c c c c c c c c c c c"
+		"f f f f f f f f f f f f";
+}
+
+.appetize {
+	grid-area: c;
+	justify-self: center;
+}
+
 @media only screen and (max-width: 1070px) {
 
 	.container {					// Set up the container for the site content
