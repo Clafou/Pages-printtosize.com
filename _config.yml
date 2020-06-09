@@ -1,3 +1,6 @@
+#page title
+page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
 # App Info
 ios_app_id                                : 949490225                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
@@ -66,7 +69,7 @@ cover_overlay_transparency                : 0.8
 
 device_color                              : blue                                      # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "ffffff"
+body_background_color                     : "#ffffff"
 
 link_color                                : "rgb(191, 48, 105)"
 
@@ -111,3 +114,11 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
